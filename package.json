@@ -1,0 +1,26 @@
+{
+  "name": "pico-scheduler",
+  "version": "1.0.0",
+  "description": "Tiny O(1) discrete time scheduler",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "tape test.js",
+    "debug": "node inspect $(npm bin)/tape test.js",
+    "prepublishOnly": "standard && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://https://github.com/telamohn/pico-scheduler"
+  },
+  "author": "Tony Ivanov",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/telamohn/pico-scheduler"
+  },
+  "homepage": "https://github.com/telamohn/pico-scheduler",
+  "devDependencies": {
+    "standard": "^16.0.2",
+    "tape": "^5.0.1"
+  }
+}
