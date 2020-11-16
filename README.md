@@ -26,6 +26,7 @@ s.enque(3, () => console.log('Hello'))
 
 let time = 0
 while (!s.empty) s.tick(time++)
+console.log(`Ticked ${time} times`)
 ```
 
 Produces:
@@ -35,6 +36,7 @@ Produces:
 > World
 > says
 > Future
+> 320
 ```
 
 ## Donations
